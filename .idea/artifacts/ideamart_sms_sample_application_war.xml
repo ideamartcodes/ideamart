@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ideamart-sms-sample-application:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ideamart-sms-sample-application.war">
+      <element id="artifact" artifact-name="ideamart-sms-sample-application:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="Maven: hms:sdp.app.api:1.0.11-SNAPSHOT" module-name="ideamart-sms-sample-application" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
